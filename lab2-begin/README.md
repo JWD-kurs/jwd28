@@ -101,4 +101,4 @@ Lektira:
 * [What is REST](http://martinfowler.com/articles/richardsonMaturityModel.html)
 * [Building a RESTful Web Service](http://spring.io/guides/gs/rest-service/)
 * [Spring REST support](http://docs.spring.io/spring/docs/4.0.3.RELEASE/spring-framework-reference/htmlsingle/#mvc-ann-restcontroller)
-* [HTTP Status Codes] (http://www.restapitutorial.com/httpstatuscodes.html)
+* [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
