@@ -27,7 +27,7 @@ podataka bude perzistentna.
 
 ----
 
-* Izvršiti MySQL za pražnjenje baze podataka (jwd_x zameniti svojim nalogom):
+* Izvršiti MySQL za pražnjenje baze podataka (jwd zameniti svojim nalogom):
 
 ```sql
 DROP DATABASE IF EXISTS jwd;
