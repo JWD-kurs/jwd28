@@ -30,12 +30,12 @@ podataka bude perzistentna.
 * Izvršiti MySQL za pražnjenje baze podataka (jwd_x zameniti svojim nalogom):
 
 ```sql
-DROP DATABASE IF EXISTS jwd_x;
-CREATE DATABASE jwd_x DEFAULT CHARACTER SET utf8;
+DROP DATABASE IF EXISTS jwd;
+CREATE DATABASE jwd DEFAULT CHARACTER SET utf8;
 
-USE jwd_x;
+USE jwd;
 
-GRANT ALL ON jwd_x.* TO 'jwd_x'@'%' IDENTIFIED BY 'jwd_x';
+GRANT ALL ON jwd.* TO 'jwd'@'%' IDENTIFIED BY 'jwd';
 
 FLUSH PRIVILEGES;
 ```
@@ -50,9 +50,9 @@ NAPOMENA: Poslednje dve naredbe se neće izvršiti na serveru jer na njih nemate
 # ===============================
 # = DATA SOURCE
 # ===============================
-spring.datasource.url=jdbc:mysql://192.168.0.2:3306/jwd_x
-spring.datasource.username=jwd_x
-spring.datasource.password=jwd_x
+spring.datasource.url=jdbc:mysql://192.168.0.2:3306/jwd
+spring.datasource.username=jwd
+spring.datasource.password=jwd
 
 # ===============================
 # = JPA / HIBERNATE
