@@ -50,7 +50,7 @@ NAPOMENA: Poslednje dve naredbe se neće izvršiti na serveru jer na njih nemate
 # ===============================
 # = DATA SOURCE
 # ===============================
-spring.datasource.url=jdbc:mysql://192.168.0.2:3306/jwd
+spring.datasource.url=jdbc:mysql://localhost:3306/jwd
 spring.datasource.username=jwd
 spring.datasource.password=jwd
 
