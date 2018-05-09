@@ -139,10 +139,10 @@ var wafepaApp = angular.module('wafepaApp', ['ngRoute']);
 wafepaApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 		.when('/', {
-			templateUrl : '/app/html/partial/home.html'
+			templateUrl : '/app/html/home.html'
 		})
 		.when('/activities', {
-			templateUrl : '/app/html/partial/activities.html'
+			templateUrl : '/app/html/activities.html'
 		})
 		.otherwise({
 			redirectTo: '/'
